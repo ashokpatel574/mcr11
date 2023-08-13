@@ -17,7 +17,9 @@ const HomePage = () => {
 
       <ul className="movieLists">
         {filteredData?.length > 0 ? (
-          filteredData?.map((item) => <MovieCard key={item.id} item={item} />)
+          filteredData?.map((item, index) => (
+            <MovieCard key={item.title + index} item={item} />
+          ))
         ) : (
           <h3>No Movie found for applied filters!!</h3>
         )}

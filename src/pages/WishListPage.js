@@ -17,7 +17,7 @@ const WishListPage = () => {
           wishlistState?.map((item) => <MovieCard key={item.id} item={item} />)
         ) : (
           <div className="no_item_found_container">
-            <h3>No Movies are added in wishlist!!</h3>
+            <h3>No Movies are added in wtach list!!</h3>
             <button className="btn" onClick={() => navigate("/")}>
               Home Page
             </button>

@@ -8,7 +8,7 @@ export const initialState = {
     ratingSelected: "all",
   },
   movieListState: JSON.parse(localStorage.getItem("movieListData")) || movies,
-  wishlistState: JSON.parse(localStorage.getItem("watchlistData")) || [],
+  wishlistState: JSON.parse(localStorage.getItem("wishlistData")) || [],
   starredState: JSON.parse(localStorage.getItem("starredData")) || [],
 };
 

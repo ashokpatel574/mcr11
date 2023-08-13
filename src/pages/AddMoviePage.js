@@ -67,7 +67,9 @@ const AddMoviePage = () => {
         onSubmit={formSubmitHandler}
       >
         <div>
-          <label htmlFor="title">Title:</label>
+          <label htmlFor="title">
+            Title <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="title"
             className="title"
@@ -81,7 +83,9 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="summary">Summary:</label>
+          <label htmlFor="summary">
+            Summary <span className="astreik"> &#42;</span>:
+          </label>
           <textarea
             id="summary"
             name="summary"
@@ -94,7 +98,9 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="year">Released year:</label>
+          <label htmlFor="year">
+            Released year <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="year"
             className="year"
@@ -110,7 +116,9 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="rating">Rating:</label>
+          <label htmlFor="rating">
+            Rating <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="rating"
             className="rating"
@@ -126,7 +134,10 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="genre">Genres:</label>
+          <label htmlFor="genre">
+            Genres (Enter genre separated by comma)
+            <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="genre"
             className="genre"
@@ -140,7 +151,9 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="director">Director:</label>
+          <label htmlFor="director">
+            Director <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="director"
             className="director"
@@ -154,7 +167,10 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="cast">Cast:</label>
+          <label htmlFor="cast">
+            Cast (Enter cast separated by comma)
+            <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="cast"
             className="cast"
@@ -168,7 +184,9 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="writer">Writer:</label>
+          <label htmlFor="writer">
+            Writer <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="writer"
             className="writer"
@@ -182,7 +200,9 @@ const AddMoviePage = () => {
         </div>
 
         <div>
-          <label htmlFor="imageURL">Image Url:</label>
+          <label htmlFor="imageURL">
+            Image Url <span className="astreik"> &#42;</span>:
+          </label>
           <input
             id="imageURL"
             className="imageURL"

@@ -131,7 +131,7 @@ const MovieFilter = () => {
           onClick={() => navigate("/addmovie")}
           className="btn addMovieBtn"
         >
-          New Movie
+          Add a Movie
         </button>
       </div>
     </div>

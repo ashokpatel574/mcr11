@@ -26,10 +26,11 @@
 .header .searchInput_container {
   text-align: center;
   width: 100%;
+  justify-content: center;
 }
 
 .header .searchInput_container input {
-  width: 40%;
+  width: 60%;
   padding: 0.6rem 1.2rem;
   font-size: 1.6rem;
   border: 1px solid #ccc;
@@ -39,11 +40,15 @@
 .navLink_container_list {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  width: 100%;
   gap: 2.5rem;
+  flex-wrap: nowrap;
 }
 
 .navLink_container_list .navLink_listItem {
-  font-size: 1.7rem;
+  font-size: 1.65rem;
+  flex-wrap: nowrap;
 }
 
 .main_container {
@@ -119,6 +124,10 @@
 .movie_card_body {
   gap: 1.5rem;
   padding: 0 1rem 2rem 1rem;
+  max-width: 35rem;
+  width: 100%;
+  min-height: 18rem;
+  justify-content: space-between;
 }
 
 .movie_card_body h3 {
@@ -244,4 +253,14 @@
 .submitBtn {
   padding: 0.6rem 1.2rem;
   font-size: 1.8rem;
+}
+
+.astreik {
+  color: red;
+}
+
+.addMovie_btnContainer .addMovieBtn {
+  background-color: #333 !important;
+  text-transform: capitalize;
+  color: #fff;
 }

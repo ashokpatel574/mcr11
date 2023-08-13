@@ -19,7 +19,7 @@ const StarredPage = () => {
           <div className="no_item_found_container">
             <h3>No Movies are added!!</h3>
             <button className="btn" onClick={() => navigate("/")}>
-              Home Page
+              Home
             </button>
           </div>
         )}

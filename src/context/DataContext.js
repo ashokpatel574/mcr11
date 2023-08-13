@@ -5,9 +5,9 @@ const DataContext = createContext();
 const DataContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(DataReducer, initialState);
 
-  localStorage.setItem("movieListData", JSON.stringify(state.movieListData));
-  localStorage.setItem("watchlistData", JSON.stringify(state.movieListData));
-  localStorage.setItem("starredData", JSON.stringify(state.movieListData));
+  localStorage.setItem("movieListData", JSON.stringify(state.movieListState));
+  localStorage.setItem("wishlistData", JSON.stringify(state.wishlistState));
+  localStorage.setItem("starredData", JSON.stringify(state.starredState));
   localStorage.setItem("moviesFilters", JSON.stringify(state.filters));
 
   return (

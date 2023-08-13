@@ -41,12 +41,12 @@ const Header = () => {
           </li>
           <li className="navLink_listItem">
             <NavLink to="/watchlist" style={NavLinkStyle}>
-              WatchList
+              Watch List
             </NavLink>
           </li>
           <li className="navLink_listItem">
             <NavLink to="/starred" style={NavLinkStyle}>
-              Starred
+              Starred Movies
             </NavLink>
           </li>
         </ul>

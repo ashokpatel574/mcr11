@@ -41,14 +41,14 @@ const MovieCardButton = ({ item }) => {
           className="btn removeWishListBtn"
           onClick={(e) => removeWishListHandler(e, item.id)}
         >
-          Remove from WishList
+          Remove from Watchlist
         </button>
       ) : (
         <button
           className="btn addWishListBtn"
           onClick={(e) => addWishListHandler(e, item)}
         >
-          Add to WishList
+          Add to Watchlist
         </button>
       )}
       {isInStarred ? (
@@ -63,7 +63,7 @@ const MovieCardButton = ({ item }) => {
           className="btn addStarBtn"
           onClick={(e) => addStarHandler(e, item)}
         >
-          Add Star
+          Star
         </button>
       )}
     </div>
