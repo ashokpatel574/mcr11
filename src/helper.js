@@ -39,7 +39,7 @@ const searchFilter = (data, filterType) => {
     return (
       item.title.toLowerCase().includes(searchText) ||
       item.director.toLowerCase().includes(searchText) ||
-      item.cast.some((elem) => elem.toLowerCase() === searchText)
+      item.cast.some((elem) => elem.toLowerCase().includes(searchText))
     );
   });
 };
