@@ -1,0 +1,247 @@
+.app {
+  width: 100%;
+}
+
+.header {
+  max-width: 145rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header nav h3 {
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+.header .searchInput_container {
+  text-align: center;
+  width: 100%;
+}
+
+.header .searchInput_container input {
+  width: 40%;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navLink_container_list {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.navLink_container_list .navLink_listItem {
+  font-size: 1.7rem;
+}
+
+.main_container {
+  max-width: 145rem;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 3rem;
+}
+
+.Moviehome_container {
+  width: 100%;
+  gap: 2.5rem;
+}
+
+.MoviesFilter_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.MoviesFilter_section h3 {
+  font-size: 2.4;
+}
+
+.genre_select_container select,
+.year_select_container select,
+.rating_select_container select {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addMovieBtn {
+  font-size: 1.7rem;
+}
+
+.movieLists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  row-gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.movie_card_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 35rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.movie_card_imgContainer {
+  max-width: 35rem;
+  width: 100%;
+  height: 25rem;
+}
+
+.movie_card_imgContainer img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.movie_card_body {
+  gap: 1.5rem;
+  padding: 0 1rem 2rem 1rem;
+}
+
+.movie_card_body h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.movie_card_body p {
+  text-align: center;
+}
+
+.movie_card_btnContainer {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie_card_btnContainer .btn {
+  color: #fff;
+  background-color: #333;
+}
+
+.no_item_found_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.MovieDetails_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem;
+}
+
+.movieItem_container {
+  max-width: 90rem;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.movieItem_Imgcontainer {
+  max-width: 30rem;
+  width: 100%;
+}
+
+.movieItem_Info_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.movieItem_Info_container h3 {
+  font-size: 2.8rem;
+}
+
+.addMovie_container {
+  max-width: 65rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1rem 2rem 5rem 2rem;
+}
+
+.addMovie_container h3 {
+  font-size: 2.4rem;
+}
+
+.addMovie_container_form_wrapper {
+  max-width: 65rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.addMovie_container_form_wrapper div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.addMovie_container_form_wrapper textarea {
+  resize: none;
+  min-height: 5rem;
+}
+
+.addMovie_container_form_wrapper label,
+.addMovie_container_form_wrapper input,
+.addMovie_container_form_wrapper textarea {
+  display: block;
+  width: 100%;
+}
+
+.addMovie_container_form_wrapper input,
+.addMovie_container_form_wrapper textarea {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.submitBtn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.8rem;
+}
